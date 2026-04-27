@@ -8,7 +8,7 @@ plugins {
 android {
     namespace = "com.example.cricket_remainder"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "29.0.13113456"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17

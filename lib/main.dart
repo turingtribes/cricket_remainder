@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'bala_floder/points_table/points_table.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -11,9 +13,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Cricket Reminder',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: Text('create new one'),
+      home: PointsTablePage(),
     );
   }
 }
